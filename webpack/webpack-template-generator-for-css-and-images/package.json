@@ -1,0 +1,16 @@
+{
+  "name": "webpack-template-generator-for-css-and-images",
+  "version": "0.0.1",
+  "description": "css and images bundle by webpack",
+  "private": true,
+  "main": "webpack.config.js",
+  "scripts": {
+    "bundle": ""
+  },
+  "author": "liejiayong",
+  "email": "809206619@qq.com",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack-spritesmith": "^1.0.2"
+  }
+}

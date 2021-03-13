@@ -1,0 +1,14 @@
+@mixin bgimg($url) {
+  background: url(#{$url}) no-repeat;
+}
+@mixin bgimgc($url) {
+  background: url(#{$url}) no-repeat center;
+}
+@mixin bgimg-repeat($url) {
+  background: url(#{$url}) repeat;
+}
+
+@mixin lh($height) {
+  height: $height;
+  line-height: $height;
+}

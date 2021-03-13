@@ -1,0 +1,79 @@
+Arguments: 
+  D:\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js build
+
+PATH: 
+  C:\Python27\;C:\Python27\Scripts;C:\Python38-32\Scripts\;C:\Python38-32\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;G:\Apache\bin;G:\xampp\mysql\bin;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\xampp\mysql\bin;G:\eclipse\adt-bundle-windows-x86_64-20131030\sdk;F:\Android\sdk;C:\Program Files\Java\jdk1.8.0_45\bin;G:\Phonegap\apache-ant-1.10.1-bin\apache-ant-1.10.1\bin;C:\Program Files (x86)\Yarn\bin\;E:\Importer Imformation\php高级\php-7.2.3-nts-Win32-VC15-x64;F:\Github\Laravel-blog\vendor\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\nvm;D:\nodejs;D:\npm\node_global;C:\Ruby23-x64\bin;C:\Users\Administrator\AppData\Local\Programs\EmEditor;F:\Android\sdk;D:\Program Files\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Local\Yarn\bin;C:\Users\Administrator\AppData\Roaming\Composer\vendor\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\Program Files (x86)\Microsoft VS Code\bin;D:\nvm;D:\nodejs
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  12.13.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "plug-in",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/tool.cjs.js",
+    "module": "dist/tool.esm.js",
+    "browser": "dist/tool.umd.js",
+    "scripts": {
+      "build": "set NODE_ENV=production && rollup -c",
+      "buildUnix": "NODE_ENV=production rollup -c",
+      "dev": "rollup -c -w",
+      "test": "node test/test.js",
+      "pretest": "npm run build"
+    },
+    "author": "liejy",
+    "homepage": "",
+    "keywords": [
+      "tools",
+      "javascript",
+      "library"
+    ],
+    "dependencies": {
+      "core-js": "^3.6.4"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.9.0",
+      "@babel/plugin-transform-runtime": "^7.9.0",
+      "@babel/preset-env": "^7.9.0",
+      "eslint": "^6.8.0",
+      "rollup": "^2.2.0",
+      "rollup-plugin-babel": "^4.4.0",
+      "rollup-plugin-commonjs": "^10.1.0",
+      "rollup-plugin-eslint": "^7.0.0",
+      "rollup-plugin-node-resolve": "^5.2.0",
+      "rollup-plugin-replace": "^2.2.0",
+      "rollup-plugin-terser": "^5.3.0",
+      "rollup-plugin-uglify": "^6.0.4"
+    },
+    "files": [
+      "dist"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Command failed.
+  Exit code: 1
+  Command: C:\WINDOWS\system32\cmd.exe
+  Arguments: /d /s /c set NODE_ENV=production && rollup -c
+  Directory: F:\Github\tool-library\automation-deployment\rollup\pack-plugin
+  Output:
+  
+      at ProcessTermError.MessageError (C:\Program Files (x86)\Yarn\lib\cli.js:186:110)
+      at new ProcessTermError (C:\Program Files (x86)\Yarn\lib\cli.js:226:113)
+      at ChildProcess.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:30281:17)
+      at ChildProcess.emit (events.js:210:5)
+      at maybeClose (internal/child_process.js:1021:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:283:5)
