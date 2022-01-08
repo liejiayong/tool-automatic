@@ -25,7 +25,7 @@ Icon
 
 
 # Thumbnails
-._*
+# ._*
 
 # Files that might appear in the root of a volume
 .DocumentRevisions-V100
@@ -78,7 +78,7 @@ $RECYCLE.BIN/
 cobertura.xml
 # End of https://www.gitignore.io/api/macos,linux,windows,vapor
 
-node_modules/
+**node_modules/**
 *.swp
 yarn-error.log
 .yarn/cache
